@@ -2,6 +2,9 @@ import React from 'react';
 import './hero.css';
 import HeroImg from '../../img/main.jpg';
 import { Typewriter } from 'react-simple-typewriter';
+import { AiOutlineInstagram, AiFillFacebook } from "react-icons/ai";
+import { RiKakaoTalkFill } from "react-icons/ri";
+import { DiJava, DiJavascript1, DiReact } from "react-icons/di";
 
 const hero = () => {
     return (
@@ -11,7 +14,7 @@ const hero = () => {
                     <div className="left top">
                         <h3>welcome</h3>
                         <h1>
-                            hi I'm <span>hong</span>
+                            Hi I'm <span>hong</span>
                         </h1>
                         <h2>
                             
@@ -31,17 +34,29 @@ const hero = () => {
                             <div className="col">
                                 <h4>View my SNS</h4>
                                 <div className="button">
-                                    <button className="btn-shadow"></button>
-                                    <button className="btn-shadow"></button>
-                                    <button className="btn-shadow"></button>
+                                    <button className="btn-shadow">
+                                        <AiOutlineInstagram className='icon' />
+                                    </button>
+                                    <button className="btn-shadow">
+                                        <RiKakaoTalkFill className='icon' />
+                                    </button>
+                                    <button className="btn-shadow">
+                                        <AiFillFacebook className='icon' />
+                                    </button>
                                 </div>
                             </div>
                             <div className="col">
                                 <h4>스끼리</h4>
                                 <div className="button">
-                                    <button className="btn-shadow"></button>
-                                    <button className="btn-shadow"></button>
-                                    <button className="btn-shadow"></button>
+                                    <button className="btn-shadow">
+                                        <DiJava className='icon' />
+                                    </button>
+                                    <button className="btn-shadow">
+                                        <DiJavascript1 className='icon' />
+                                    </button>
+                                    <button className="btn-shadow">
+                                        <DiReact className='icon' />
+                                    </button>
                                 </div>
                             </div>
                         </div>

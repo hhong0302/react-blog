@@ -13,6 +13,11 @@ html
   overflow-y: scroll;
 }
 
+#root
+{
+  position: relative;
+}
+
 body
 {
   font-family: 'Noto Sans KR', sans-serif;
@@ -62,7 +67,7 @@ button
 {
   border: none;
   outline: none;
-  background-color: none;
+  background: none;
 }
 
 .row, .left, .right
@@ -139,7 +144,7 @@ textarea, input
 {
   .grid
   {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .left, .right
