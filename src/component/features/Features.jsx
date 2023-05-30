@@ -1,7 +1,7 @@
 import React from 'react';
 import './features.css';
 import Card from './Card';
-import data from '../../data/features-api';
+import data from '../../data/api';
 
 const Features = () => {
     return (
@@ -16,7 +16,7 @@ const Features = () => {
                 <div className="container grid">
                     {data.map((dt,index)=>
                     {
-                        return <Card icon={dt.icon} title={dt.title} content={dt.content} />;
+                        return <Card key={index} icon={dt.icon} title={dt.title} content={dt.content} />;
                     })}
                 </div>
             </section>

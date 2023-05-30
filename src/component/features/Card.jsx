@@ -1,12 +1,6 @@
 import React from 'react';
 import { 
-    RiArrowRightLine, 
-    RiAncientGateFill, 
-    RiAncientGateLine, 
-    RiAncientPavilionFill, 
-    RiAncientPavilionLine, 
-    RiBankFill, 
-    RiBankLine
+    RiArrowRightLine
 } from "react-icons/ri";
 
 const Card = (props) => {

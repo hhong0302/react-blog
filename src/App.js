@@ -1,9 +1,14 @@
 import React from 'react';
 import './App.css';
-import {FcAlarmClock, FcBusinessman, FcBiomass} from 'react-icons/fc';
+//import {FcAlarmClock, FcBusinessman, FcBiomass} from 'react-icons/fc';
 import Header from './component/head/Header';
-import Hero from './component/hero/Hero.jsx';
+import Hero from './component/hero/Hero';
 import Features from './component/features/Features';
+import Portfolio from './component/portfolio/Portfolio';
+import Resume from './component/resume/Resume';
+import Group from './component/group/Group';
+import Contact from './component/contact/Contact';
+import Footer from './component/footer/Footer';
 
 const App = () => {
   return (
@@ -11,6 +16,11 @@ const App = () => {
       <Header/>
       <Hero />
       <Features />
+      <Portfolio />
+      <Resume />
+      <Group />
+      <Contact />
+      <Footer />
     </>
   );
 };
